@@ -1,0 +1,83 @@
+body {
+    background: green;
+    
+}
+
+.jumbotron {
+	text-align: center;
+	box-shadow: 10px 10px 5px black;
+}
+
+#instructions {
+	background: orange;	
+	border-style: solid;	
+	box-shadow: 10px 10px 5px black;
+	margin-bottom: 20px;
+}
+
+.instext {
+	font-size: 20px;
+	font-weight: bold;
+	color: green;
+}
+
+.capsule {
+	background: blue;	
+	border-style: solid;	
+	box-shadow: 10px 10px 5px black;
+	
+	
+}
+
+#randomNumber {
+	float: left;
+	padding: 30px;
+	
+}
+
+#wins {
+	float: right;
+	padding: 10px
+
+}
+
+#losses {
+	float: right;
+	clear: both;
+	padding: 10px;
+}
+
+
+
+.buttons {
+
+}
+
+.jewelOne {
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: 20px;
+
+}
+
+.jewelTwo {
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: 20px;
+}
+
+.jewelThree {
+	float: left;
+	width: 25%;
+	height: 100%;
+	padding: 20px;
+}
+
+.jewelFour {
+	float: left;
+	width: 25%;
+	height: 200px;
+	padding: 20px;
+}

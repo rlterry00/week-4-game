@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+	<title>Run The Jewels!</title>
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+  <h1>Run the Jewels!</h1>
+  <p></p>
+		</div>
+			</div>
+	<div class="row"></div>
+		<div class="col-md-6" id="instructions">
+			<p class="instext">You will be given a random number at the start of the game.</p>
+
+			<p class="instext">There are four jewels below. By clicking on a jewel you will add a specific amount of points to your total score.</p>
+
+			<p class="instext">You win the game by matching your total score to the random number. You lose if your total score goes above the random number. </p>
+
+			<p class="instext">The value of each jewel is hidden to you until you click on it.</p>
+
+			<p class="instext">Each time the game starts the values of each jewel will change.</p>
+
+		</div>
+		<div class="col-md-6"></div>
+	
+	<div class="row"></div>
+		<div class="col-md-6">
+			<div class="panel-body">
+			<div class="capsule">
+
+			<p id="randomNumber" class="instext capsule">""</p>
+			</div>
+			
+			<div>
+
+				<p id="wins" class="instext capsule">
+				Wins:</p>
+
+				<p id="losses" class="instext capsule">Losses:</p>
+
+				
+
+			
+			</div>
+			</div>
+		</div>
+		<div class="col-md-6"></div>
+	
+	<div class="row"></div>
+		<div class="col-md-6">
+
+			<div class="buttons">
+			
+			<img src="assets/images/Emerald.png" class="jewel jewelOne" value="0">
+
+			<img src="assets/images/gem.png" class="jewel jewelTwo" value ="1">
+
+			<img src="assets/images/stone3.png" class="jewel jewelThree" value ="2">
+
+			<img src="assets/images/stone4.png" class="jewel jewelFour" value = "3">
+			
+			</div>
+
+		</div>
+		<div class="col-md-6"></div>
+	
+	<div class="row"></div>
+		<div class="col-md-6 capsule">
+		
+			<p class="instext">Your total score is:</p>
+		
+		</div>
+		<div class="col-md-6"></div>
+	
+	<div class="row"></div>
+		<div class="col-md-6">
+		<div class="panel-body"></div>
+			
+			<h1 class="instext capsule totalScore">""</h1>
+		</div>
+		<div class="col-md-6"></div>
+</body>
+</html>
